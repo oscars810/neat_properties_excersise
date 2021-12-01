@@ -4,7 +4,7 @@ const N_PORTFOLIOS = 5;
 const N_PROPERTIES = 20;
 const CREDIT_YEARS = 20;
 const UNEXPECTED_PROB = 0.05; // Represent the probability that an unexpected cost will appear.
-const RENT_PROB = 0.9; // Represent the probability that renter pay each month.
+const RENT_PROB = 0.95; // Represent the probability that renter pay each month.
 
 const monthNames = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
