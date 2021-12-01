@@ -42,7 +42,6 @@ class Analitycs implements IAnalitycs{
                 while (currentMonth < 12) {
                     if (currentMonth === endMonth && currentYear === endYear) break;
                     const strMonth: string = monthNames[currentMonth];
-                    // console.log("Voy a sacar el año: ", currentYear);
                     const incomes: { [payment: string]: number } = prop.incomes.year[currentYear][strMonth];
                     const costs: { [payment: string]: number } = prop.costs.year[currentYear][strMonth];
                     for (const payment in incomes) {
